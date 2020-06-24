@@ -4,8 +4,8 @@ public class QueryProcessor {
 
     public String process(String query) {
         if (query.toLowerCase().contains("number")) {
-            return "1";
+            return "205";
         }
-        return "Still this game is interesting";
+        return "No prime numbers";
     }
 }
