@@ -2,3 +2,10 @@ language: java
 jdk:
 - openjdk8
 script: mvn clean verify
+
+deploy:
+
+    provider: heroku
+    api_key:
+        secure: OQx30x7crgmahE/6nzT4ysB7B9lDahhVlMKQE6uXonPf7jB3zoC1dH+JHNPWWWJF8VkGGrwRTYvRMO+IaZJDusG7TbyCQt25fq9oVo6cnobl6W7vcXtm80Yupr7uIgG9iHJjNgCsXvz1CNBJ6/zjX2LGmCxiuJq6oVg1JrzOEs1zxKYNimaPyURzHEXgSeE+jms1MUm6bjFj8vedsffOOt/wDakdiCjlA+9+YTa8Okg0aLz44DIKjY7FV2U8FjoP2Z/5D/oXf50oxQ3cIGz8opCmOU7BiS9aagGEN6GMLVrWan163zD5HGDItuZtB2ElUBGGMwX2Fj+dYmbRU/dCFoVZ4A8/PlBG1SbPZCQXhqsV80aiXYZ0R+gmC4rd3MkmfwrjILSeD+JgvLkpd7S+EDixgk5toQ5+W+0m1pHfI90In8KvvD+lBmteG3Nsr1F7+VHrOYcjm3zMVs+vxn/bNrzJxwhVsDzUc469X0cXuUbxec1LK2L15lGzRE+h0SH6WpHRLk5UYWvT9HhtiIlVGhHewlIjaWNX82zrve6Mwo604M3k9Cy5wWRjedYyVmOdyCbLoY0QnihbDyEeurl5iewHnCx25mhdkCz9vFYFm4QFrZOhtmaCqRK4BWCC5mOxv8vVjptalusTZm1RUp5CewdhKrZDYw4Az+Sz1Qh19Cw=
+    app: mjapp-01
